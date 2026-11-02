@@ -1,0 +1,32 @@
+# ---- SolidWorks 临时与恢复文件 ----
+*.SLDPRT~
+*.SLDASM~
+*.SLDDRW~
+*.SLDPRT.bak
+*.SLDASM.bak
+~$*
+*.lck
+*.swp
+*.tmp
+*.bak
+
+# ---- Windows / 资源管理器 ----
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+
+# ---- 日志与临时输出 ----
+*.log
+_output/
+temp/
+tmp/
+
+# ---- Python（图纸校验脚本） ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ---- 本地备份 ----
+*.bak-*
